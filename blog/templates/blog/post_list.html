@@ -11,18 +11,16 @@
         <h3>Autor: nieznan</h3>
         <h4>Wszelkie prawa</h4>
     </div>
+        {% for post in posts %}
     <div>
-        <p>To jest akapit</p>
-        <em> to jest wyróżniony tekst</em><br>
-        <strong>to jest pogrubiony tekst</strong>
-        <a href="http://st-tech.pl/">STITCH TECHNOLOGY</a>
+        <p> opublikowany: {{ post.published_date }}</p>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <em>{{ post.text|linebreaksbr}}</em>
     </div>
-
+        {% endfor %}
     <div>
         <ul>
-            <li>lista</li>
-            <li>lista</li>
-            <li>lista</li>
+
         </ul>
     </div>
 
