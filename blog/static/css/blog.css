@@ -1,5 +1,5 @@
 h1 a, h2 a{
-    color: olive;
+    color: black;
 }
 
 body {
@@ -8,9 +8,9 @@ body {
 
 }
 .page-header{
-    background-color: aqua;
+    background-color: saddlebrown;
     margin-top: 0;
-    padding: 20px 20px 20px, 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .data{
